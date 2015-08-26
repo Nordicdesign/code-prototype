@@ -21,11 +21,19 @@ Grid documentation to be added. Check the code for examples.
 Some basic styling can be added using the following classes:
 
 .lowbox  // 1px #ccc border box, no background, for low-fidelity wireframes
+
 .centerise // make it centre aligned, both horizontal and vertical
+
 .background-low // Solid #f2f3f4 background box
+
 .background-mid  // Solid #ccc background box 
+
 .height100 // 100px height
+
 .height150
+
 .height200
+
 .height300
+
 .height400
