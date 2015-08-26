@@ -1,0 +1,353 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		  <title>Code Prototype</title>
+		  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<div class="container">
+
+			
+			<h1>A framework for code prototypes</h1>
+
+			<header>
+				<div class="lowbox height150">
+					<nav>
+						<ul class="nav-utility">
+							<li><a href="#">Contact us</a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">Sign in</a></li>
+						</ul>
+					</nav>
+					<img src="https://placehold.it/150x50">
+					<br><br>
+					<nav class="mainnav">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Menu item 2</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
+					</ul>
+					</nav>
+				</div>
+			</header>
+
+			<div class="lowbox height150 centerise">
+				<p>This is a box</p> 
+			</div>
+
+			<div class="row">
+
+				<div class="large4 col">
+					<p class="background-low height200">Some content goes here</p>
+				</div>
+
+				<div class="large8 col">
+					<p class="lowbox height200">And more content here</p>
+				</div>
+			</div>
+			
+			<!--HEADINGS-->
+			
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			
+			<!--PARAGRAPHS-->
+			<section>
+				<div class="leftcol">
+					<p class="annotation">Paragraphs<br><br>
+						Outline the font, size and weight, and how to style links, emphasised text, selected text etc.
+					</p>
+				</div>
+				<div class="rightcol">
+					<p>Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun. Orbiting this at a distance of roughly ninety-two million miles is an utterly insignificant <a href="#">little blue green planet</a> whose ape-descended life forms are so amazingly primitive that they still think digital watches are a pretty neat idea. </p>
+				</div>
+			</section>
+
+			<!--QUOTES-->
+			<section>
+				<div class="leftcol">
+					<p class="annotation">Quotes<br><br>
+						Describe how quotes are styled and when to use them.
+					</p>
+				</div>
+				<div class="rightcol">
+					<blockquote>&ldquo;This planet has - or rather had - a problem, which was this: most of the people on it were unhappy for much of the time. Many solutions were suggested for this problem, but most of these were largely concerned with the movements of small green pieces of paper, which is odd because on the whole it wasn't the small green pieces of paper that were unhappy.&rdquo;</blockquote>
+				</div>
+			</section>
+
+			<!--UNORDERED LISTS-->
+			<section>
+				<div class="leftcol">
+					<p class="annotation">Unordered Lists<br><br>
+						Describe how unordered lists are styled and when to use them.
+					</p>
+				</div>
+				<div class="rightcol">
+					<ul class="list">
+						<li>And so the problem remained; lots of the people were mean, and most of them were miserable, even the 
+						ones with digital watches.</li>
+						<li>Many were increasingly of the opinion that they'd all made a big mistake in coming down from the trees 
+						in the first place.</li>
+						<li>And some said that even the trees had been a bad move, and that no one should ever have 
+						left the oceans.</li>
+					</ul>		
+				</div>
+			</section>
+
+			<!--ORDERED LISTS-->
+			<section>
+				<div class="leftcol">
+					<p class="annotation">Ordered Lists<br><br>
+						Describe how ordered lists are styled and when to use them.
+					</p>
+				</div>
+				<div class="rightcol">
+					<ol class="list">
+						<li>And so the problem remained; lots of the people were mean, and most of them were miserable, even the 
+						ones with digital watches.</li>
+						<li>Many were increasingly of the opinion that they'd all made a big mistake in coming down from the trees 
+						in the first place.</li>
+						<li>And some said that even the trees had been a bad move, and that no one should ever have 
+						left the oceans.</li>
+					</ol>		
+				</div>
+			</section>
+
+			<!--FORMS-->
+			<div class="row" id="forms">
+				<div class="large4 col">
+					<p class="annotation">Forms<br><br>
+						Describe how forms are styled and when to use them. 
+					</p>
+				</div>
+				<div class="large8 col">
+					<form action="/">
+						<fieldset>
+							<label for="name">Name</label>
+							<input type="text" id="name" class="form-text" />
+							<p class="form-help">This is help text under the form field.</p>
+						</fieldset>
+						
+						<fieldset>
+							<label for="email">Email</label>
+							<input type="email" id="email" class="form-text" />
+						</fieldset>
+						
+						<fieldset>
+							<label for="gender">Gender</label>
+							<select id="gender">
+								<option>Male</option>
+								<option>Female</option>
+							</select>
+						</fieldset>
+
+						<fieldset class="radio">
+							<label for="notifications">Notifications</label>
+							<ul>
+								<li><label><input type="radio" name="notifications" /> Send me email</label></li>
+								<li><label><input type="radio" name="notifications" /> Don't send me email</label></li>
+								<li><label><input type="radio" name="notifications" /> Send me flowers</label></li>
+							</ul>
+						</fieldset>
+
+						<fieldset>
+							<label for="url">URL</label>
+							<input type="url" id="url" class="form-text" placeholder="http://yourdomain.com" />
+						</fieldset>
+
+						<fieldset>
+							<label for="bio">Bio</label>
+							<textarea id="bio"></textarea>
+						</fieldset>
+						
+						<fieldset class="check">
+							<label><input type="checkbox" /> I accept the terms of service and lorem ipsum.</label>
+						</fieldset>
+
+					</form>			
+				
+				</div>
+			</div>
+
+			<!--FORM ERRORS-->
+			<div class="row">
+				<div class="left4 col">
+					<p class="annotation">Form Errors<br><br>
+						Describe how errors are added to forms above, use more examples if needed.
+					</p>
+				</div>
+				<div class="large8 col">
+					<form>
+						<fieldset>
+							<label for="name">Name</label>
+							<input type="text" id="name" class="form-text error" />
+							<p class="form-help error">This is an error message! Enter correct details.</p>
+						</fieldset>
+
+						<fieldset>
+							<label for="gender">Gender</label>
+							<select class="error" id="gender">
+								<option>Male</option>
+								<option>Female</option>
+							</select>
+							<p class="form-help error">Please select an option.</p>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+
+			<!--SEARCH-->
+			<section>
+				<div class="leftcol">
+					<p class="annotation">Search<br><br>
+						Outline where searches are used, and how they relate to other forms above.
+					</p>
+				</div>
+				<div class="rightcol">
+					<form>
+						<fieldset>
+							<input type="text" id="name" class="form-text search" placeholder="Search" />
+							<input type="submit" value="Go" />
+						</fieldset>
+					</form>			
+				</div>
+			</section>
+
+			<!--BUTTONS-->
+			<section id="forms">
+				<div class="leftcol">
+					<p class="annotation">Buttons<br><br>
+						Outline the different kinds of button and what contexts they are used in.
+					</p>
+				</div>
+				<div class="rightcol">
+					<button class="button primary">Primary</button>
+					<button class="button">Standard</button>
+					<button class="button disabled">Disabled</button>
+				</div>
+			</section>
+
+			<!--TABS-->
+			<section id="navigation">
+				<div class="leftcol">
+					<p class="annotation">Tabs<br><br>
+						Describe where a tabbed navigation is used. Use the "active" class to denote a selected tab.
+					</p>
+				</div>
+				<div class="rightcol">
+					<nav class="tabs">
+						<ul>
+							<li><a href="#">This is a link</a></li>
+							<li class="active"><a href="#">Active Tab</a></li>
+							<li><a href="#">Lorem link</a></li>
+							<li><a href="#">Dolor link two</a></li>
+							<li><a href="#">Here is a link</a></li>
+						</ul>
+					</nav>			
+				</div>
+			</section>
+
+
+			<!--BREADCRUMB-->
+			<div class="row">
+				<div class="large4 col">
+					<p class="annotation">Breadcrumb<br><br>
+						Describe where breadcrumb navigation is used, with the latest, active link highlighted.
+					</p>
+				</div>
+				<div class="large8 col">
+					<nav class="breadcrumb">
+						<a href="#">Stage 1</a> &rarr;
+						<a href="#">Stage 2</a> &rarr; 
+						<a href="#">Stage 3</a> &rarr;
+						<a href="#">Stage 4</a> &rarr;
+						<strong>Current Stage</strong>
+					</nav>					
+				</div>
+			</div>
+
+			<!--PAGINATION-->
+			<div class="row">
+				<div class="large4 col">
+					<h4>Pagination</h4>
+					<p>Describe how pagination is styled and when to use it.</p>
+				</div>
+				<div class="large8 col">
+					<nav class="page">
+						<ul>
+							<li class="page-prev"><a href="#">&larr; Prev</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li class="page-next"><a href="#">Next &rarr;</a></li>
+						</ul>
+					</nav>					
+				</div>
+			</div>
+
+			<!--FEEDBACK-->
+			<section id="feedback">
+				<div class="leftcol">
+					<p class="annotation">Feedback<br><br>
+						Outline the different kinds of feedback, what situations they pop up in, and how their styling differs.
+					</p>
+				</div>
+				<div class="rightcol">
+					<div class="feedback success">
+						<h4>Good News!</h4>
+						<p>Everything has gone well and is going to be terrific. Have a gold star.</p>
+					</div>	
+					<div class="feedback failure">
+						<h4>Don't panic!</h4>
+						<p>Something has gone wrong. <a href="#">Click here to sort it out</a>.</p>
+					</div>	
+					<div class="feedback generic">
+						<h4>Some News!</h4>
+						<p>Something has happened and we thought we would let you know.</p>
+					</div>		
+				</div>
+			</section>
+
+			<!--DIALOG BOX-->
+			<section id="interactive">
+				<div class="leftcol">
+					<p class="annotation">Dialog Box<br><br>
+						Click button to see dialog box in action. Describe situations where a dialog box would be used, and what content you can put inside the window. Inherit styling for all elements within the box.
+					</p>
+				</div>
+				<div class="rightcol">
+					<p><a class="open-dialog" href="javascript:void(0);">Click to show dialog window</a></p>
+				</div>
+			</section>
+
+			<!--TOOLTIP-->
+			<section>
+				<div class="leftcol">
+					<p class="annotation">Tool tips<br><br>
+						Describe situations where a tool tip would be used, and what content you can put inside the window.
+					</p>
+				</div>
+				<div class="rightcol">
+					<a class="tooltips" href="#">Hover to show tooltip<span><p>Here is some information about the thing you just hovered over.</p></span></a>
+				</div>
+			</section>
+
+			
+
+			<!--FOOTER-->
+			<footer>
+				<p>Created by <a href="http://www.nordic-design.net">Alex Lillo</a></p>
+				<p><a href="#top">&uarr; Back to top</a></p>
+			</footer>	
+
+		</div>
+
+	</body>
+</html>	
